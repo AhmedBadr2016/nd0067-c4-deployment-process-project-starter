@@ -27,6 +27,7 @@ jobs:
           name: API Build
           command: |
             npm run api:build
+            npm i -D typescript@3.9.5
       #api deploy
       - run:
           name: API deploy
@@ -57,7 +58,6 @@ jobs:
           command: |
             npm run frontend:deploy
             #install api
-
 workflows:
   udagram:
     jobs:
