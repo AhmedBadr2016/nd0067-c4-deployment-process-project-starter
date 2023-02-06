@@ -11,8 +11,8 @@ jobs:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
     steps:
-    - checkout
-    - node/install:
+      - checkout
+      - node/install:
           node-version: "14.15"
       - eb/setup
       - aws-cli/setup
@@ -56,8 +56,6 @@ jobs:
           name: Front-End deploy
           command: |
             npm run frontend:deploy
-
-      
 
 workflows:
   udagram:
