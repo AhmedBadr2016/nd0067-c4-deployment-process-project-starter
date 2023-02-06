@@ -17,7 +17,21 @@ jobs:
       - eb/setup
       - aws-cli/setup
       # Use root level package.json to install dependencies in the frontend app
-
+      #install api
+      - run:
+          name: Install API Dependencies
+          command: |
+            npm run api:install
+      #api build
+      - run:
+          name: API Build
+          command: |
+            npm run api:build
+      #api deploy
+      - run:
+          name: API deploy
+          command: |
+            npm run api:deploy
       #install frontend
       - run:
           name: Install Front-End Dependencies
@@ -43,21 +57,6 @@ jobs:
           command: |
             npm run frontend:deploy
             #install api
-      #install api
-      - run:
-          name: Install API Dependencies
-          command: |
-            npm run api:install
-      #api build
-      - run:
-          name: API Build
-          command: |
-            npm run api:build
-      #api deploy
-      - run:
-          name: API deploy
-          command: |
-            npm run api:deploy
 
 workflows:
   udagram:
