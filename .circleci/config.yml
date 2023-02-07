@@ -63,6 +63,6 @@ workflows:
   udagram:
     jobs:
       - automate:
-          filter:
+          filters:
             branches:
               only: master
