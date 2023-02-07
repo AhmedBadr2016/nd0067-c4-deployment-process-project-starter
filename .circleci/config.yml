@@ -31,6 +31,7 @@ jobs:
       - run:
           name: API deploy
           command: |
+            eb init
             npm run api:deploy
       #install frontend
       - run:
