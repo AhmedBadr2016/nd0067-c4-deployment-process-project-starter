@@ -48,17 +48,16 @@ jobs:
           name: Front-End Build
           command: |
             npm run frontend:build
-      #api deploy
-      - run:
-          name: API deploy
-          command: |
-            npm run api:deploy
       #frontend deploy
       - run:
           name: Front-End deploy
           command: |
             npm run frontend:deploy
-            #install api
+      #api deploy
+      - run:
+          name: API deploy
+          command: |
+            npm run api:deploy
 
 workflows:
   udagram:
