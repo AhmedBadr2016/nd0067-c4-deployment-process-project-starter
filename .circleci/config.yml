@@ -27,12 +27,7 @@ jobs:
           name: API Build
           command: |
             npm run api:build
-      #api deploy
-      - run:
-          name: API deploy
-          command: |
-            eb init $EB_APP --region $AWS_REGION
-            npm run api:deploy
+
       #install frontend
       - run:
           name: Install Front-End Dependencies
@@ -53,6 +48,11 @@ jobs:
           name: Front-End Build
           command: |
             npm run frontend:build
+      #api deploy
+      - run:
+          name: API deploy
+          command: |
+            npm run api:deploy
       #frontend deploy
       - run:
           name: Front-End deploy
