@@ -31,7 +31,7 @@ jobs:
       - run:
           name: API deploy
           command: |
-            eb init
+            eb init $EB_APP --region $AWS_REGION
             npm run api:deploy
       #install frontend
       - run:
