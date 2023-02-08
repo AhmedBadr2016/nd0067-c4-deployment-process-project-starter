@@ -57,6 +57,8 @@ jobs:
       - run:
           name: API deploy
           command: |
+            cd udagram\udagram-api\www
+            eb init $EB_APP --region $AWS_REGION
             npm run api:deploy
 
 workflows:
