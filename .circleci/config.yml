@@ -53,7 +53,7 @@ jobs:
           name: Front-End deploy
           command: |
             npm run frontend:deploy
-      #api deploy2
+      #api deploy
       - run:
           name: API deploy
           command: |
