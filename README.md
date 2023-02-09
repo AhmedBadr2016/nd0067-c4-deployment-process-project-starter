@@ -71,4 +71,4 @@ The e2e tests are using Protractor and Jasmine.
 
 ## Documantation
 
--frontend link : Deploytest-env.eba-pusxy73d.us-east-1.elasticbeanstalk.com
+-frontend link : http://mybucket1234stillatlas.s3-website-us-east-1.amazonaws.com/home
