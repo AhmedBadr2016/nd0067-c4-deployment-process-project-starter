@@ -10,6 +10,8 @@ used
 
 3- s3 buckets
 
+4- etc...
+
 as services for this project
 
 # App dependencies :
@@ -22,6 +24,8 @@ used
 
 3- postgres
 
+4- etc....
+
 as the backend technolgies
 
 and used
@@ -32,7 +36,7 @@ and used
 
 3- karma
 
-4- polyfills
+4- etc.....
 
 as the frontend technolgies
 
@@ -44,11 +48,7 @@ as the frontend technolgies
 
 3- deploy and run on the ebs and connect it to the rds
 
-4- instal the frontend
-
-5- build the frontend
-
-6- deploy and run the frontend on the bucket
+4- etc....
 
 ---
 
