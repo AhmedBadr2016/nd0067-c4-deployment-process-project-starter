@@ -2,16 +2,53 @@
 
 # Infrastructure :
 
-i used rds and ebs and s3 buckets as services for this project
+used
+
+1- rds
+
+2- ebs
+
+3- s3 buckets
+
+as services for this project
 
 # App dependencies :
 
-i used node and npm and postgres as backend technolgies
+used
+
+1- node
+
+2- npm
+
+3- postgres
+
+as the backend technolgies
+
+and used
+
+1- js
+
+2- sass
+
+3- karma
+
+4- polyfills
+
+as the frontend technolgies
 
 # Pipeline process :
 
-the app gets uploaded into gethub then circleci intstalls the frontend and builds it then intsalls the  
-backend and builds it then deploy the frontend onto the s3 bucket then deploy the backend onto ebs enviroment
+1- instal the dependances for the api
+
+2- build the api
+
+3- deploy and run on the ebs and connect it to the rds
+
+4- instal the frontend
+
+5- build the frontend
+
+6- deploy and run the frontend on the bucket
 
 ---
 
