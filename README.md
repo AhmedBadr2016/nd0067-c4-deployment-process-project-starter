@@ -43,7 +43,7 @@ Provision the necessary AWS services needed for running the application:
 
 ## Testing
 
-This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
+This project contai1ns two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
 
 1. `cd starter/udagram-frontend`
 1. `npm run test`
